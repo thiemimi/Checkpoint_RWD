@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">AEKST</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="AS.html">Agricultura sustentável</a></li>
+                <li><a href="IA.html">Inteligências artificiais</a></li>
+                <li><a href="MD.html">Modelos de cultivos</a></li>
+                <li><a class="active" href="Contato.html">Contato</a></li>
+            </ul>
+        </nav> 
+    </header>
+    
+    <section id="form">
+        <div class="container3">
+            <form action="cadastro" name="cadastro" method="get">
+                <fieldset>
+                    <legend id="titulo-form">ENTRE EM CONTATO CONOSCO</legend>
+                    <div class="campos">
+                        <label for = "c-nome"> Nome </label> <br>
+                        <input type="text" name="nome"  class="tamanho" placeholder="Digite seu nome" required autofocus><br><br>
+                    
+                        <label for = "c-email"> Email </label><br>
+                        <input type="email" name="e-mail" class="tamanho" placeholder="Digite um email válido" required><br><br>
+
+                        <legend>Gostaria de receber nossas atualizações e novidades por e-mail?</legend><br>
+                        <input type="radio" name="sn1" id="c-sim" value="S">
+                        <label for="c-sim">Sim</label><br>
+
+                        <input type="radio" name="sn1" id="c-nao" value="N">
+                        <label for="c-nao">Não</label><br><br>
+                        
+
+                        <label for="c-phone">Telefone</label><br>
+                        <input type="tel" name="phone" class="tamanho" placeholder="Digite seu telefone"><br><br>
+                        <label for="c-phone">Celular</label><br>
+                        <input type="tel" name="phone" class="tamanho" placeholder="Digite seu celular"><br><br>
+
+                        <label for="c-cidade">Estado</label><br>
+                        <select name="estado" class="tamanho">
+                                <option value="">Escolha seu estado</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                        </select>
+                        <br><br>
+                        
+                        <legend>Como você ficou sabendo de nós?</legend><br>
+                        <input type="radio" name="pesquisa" >
+                        <label for="c-pesquisa">Pesquisa</label><br>
+                        <input type="radio" name="pesquisa" >
+                        <label for="c-indicação">Indicações conhecidos</label><br>
+                        <input type="radio" name="pesquisa">
+                        <label for="c-midiasociais">Mídias sociais</label><br>
+                        <input type="radio" name="pesquisa">
+                        <label for="c-outro">Outro</label><br> <br>
+                        <input type="text" class="tamanho" placeholder="Digite aqui (opcional)"><br><br>
+
+                        <legend>Você já tem experiência na área agrícola?</legend><br>
+                        <input type="radio" name="sn" id="c-sim" value="S">
+                        <label for="c-sim">Sim</label><br>
+
+                        <input type="radio" name="sn" id="c-nao" value="N">
+                        <label for="c-nao">Não</label><br><br>
+                        
+                       
+
+                        <label for="c-msg">Sua mensagem</label>
+                        <textarea name="mensagem" id="c-msg" cols="40" rows="5" required></textarea><br><br>
+                
+                        
+                        <legend>Prefência de contato</legend><br>
+                        <input type="radio" name="pref" id="c-email" value="Email">
+                        <label for="c-email">Email</label><br>
+                    
+                        <input type="radio" name="pref" id="c-telefone" value="Telefone">
+                        <label for="c-telefone">Telefone</label><br>
+                    
+                        <input type="radio" name="pref" id="c-whatsapp" value="Whatsapp">
+                        <label for="c-whatsapp">WhatsApp</label><br>
+                    
+                        <input type="submit" value="Enviar" id="botaoform" >
+                    </div>
+                </fieldset>
+            </form> 
+        </div>    
+    </section> 
+
+
+    <footer>
+        <div class="box1">
+            <h1 class="logo">AEKST</h1>
+        </div>
+        <div class="box">
+            <p id="pfooter">
+                <li>Ana Clara Rocha de Olivera RM: 550110</li>
+                <li>Enzo Lafer Gallucci RM: 551111</li>
+                <li>Kaiky Noriyuki Ishibashi RM: 98876</li>
+                <li>Stephany Siqueira RM: 98258</li>
+                <li>Thiemi Hiratani Favaro RM: 551478</li>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
